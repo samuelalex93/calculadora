@@ -21,6 +21,11 @@ var Calculadora = {
     if((isNaN(num1) || isNaN(num2))) {
       return 0;
     }
+
+    if(num1 == 0 || num2 == 0) {
+      return 'Erro';
+    }
+
     num1 = parseFloat(num1);
     num2 = parseFloat(num2);
     return num1 / num2;
