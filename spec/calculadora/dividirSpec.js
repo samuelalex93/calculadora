@@ -10,7 +10,7 @@ describe("Suite de teste de divisão", function () {
   });
 
   it('deve retornar 1.5 para 4.5 e 3', function () {
-    expect(Calculadora.dividir(4.5, 3)).toEqual(1);
+    expect(Calculadora.dividir(4.5, 3)).toEqual(1.5);
   });
 
   it("deve retornar 'ERROR' quando valor 1 quando dividir por 0", function () {
